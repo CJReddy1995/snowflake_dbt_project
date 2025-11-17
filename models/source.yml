@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: jai_db
+    schema: my_schema
+    description: "Raw data from external sources"
+
+    tables:
+      - name: bike
+        description: "bike data from Snowflake table"
+
+      - name: weather
+        description: "weather data from Snowflake table"
