@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: ORDERS_COUNT
+    description: "A starter dbt model"
+    columns:
+      - name: CUSTOMERID
+        description: "The primary key for this table"
+        data_tests:
+          - not_null

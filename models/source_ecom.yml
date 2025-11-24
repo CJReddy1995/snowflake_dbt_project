@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: ECOM_RAW
+    database: ECOM_DB
+    schema: L1_LANDING
+    description: "Raw data from snowflake DB"
+
+    tables:
+      - name: CUSTOMERS
+        description: "Customers data from Snowflake table"
+
+      - name: ORDERS
+        description: "Orders data from Snowflake table"
+
+      - name: EMPLOYEES
+        description: "Orders data from Snowflake table"
+
+      - name: PRODUCTS
+        description: "Customers data from Snowflake table"
+
+      - name: STORES
+        description: "Orders data from Snowflake table"
+
+      - name: ORDERITEMS
+        description: "Orders data from Snowflake table"
